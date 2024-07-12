@@ -100,8 +100,8 @@ paths:
                 type: object
                 properties:
                   status:
-                    type: success
-                    example: true
+                    type: string
+                    example: success
                   message:
                     type: string
                     example: Login successful
@@ -118,7 +118,7 @@ paths:
                   message:
                     type: string
                     example: Unable to login
-        '500':
+        500:
           description: Internal server error
           content:
             application/json:
