@@ -90,7 +90,7 @@ paths:
         required: true
         content:
           schema:
-              $ref: '#/components/schemas/LoginUser
+              $ref: '#/components/schemas/LoginUser'
       responses:
         200:
           description: Successful operation
