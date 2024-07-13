@@ -1,10 +1,10 @@
 {
-  "name": "swagger-petstore-openapi-3-0",
+  "name": "Swagger",
   "version": "1.0.11",
-  "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about Swagger at [https://swagger.io](https://swagger.io). In the third iteration of the pet store, we've switched to the design first approach! You can now help us improve the API whether it's by making changes to the definition itself or to the code. That way, with time, we can improve the API in general, and expose some of the new features in OAS3.  Some useful links: - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore) - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)",
+  "description": "This is a HNG task 3",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "swagger"
@@ -12,8 +12,7 @@
   "license": "Unlicense",
   "private": true,
   "dependencies": {
-    "connect": "^3.2.0",
-    "js-yaml": "^3.3.0",
+    "nodemon": "^3.1.4",
     "oas3-tools": "^2.2.3"
   }
 }
