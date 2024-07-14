@@ -12,7 +12,7 @@
   },
   "servers": [
     {
-      "url": "https://brawny-laced-plot.glitch.me/api/v1"
+      "url": "https://hng-task-3-rosy.vercel.app/api/v1"
     }
   ],
   "tags": [
